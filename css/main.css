@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+.lock {
+  width: 300px;
+  margin: 20px auto;
+}
+
+#canvas {
+  background-color: #333;
+}
+
+#choose {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#tip {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  margin-bottom: 2em;
+}

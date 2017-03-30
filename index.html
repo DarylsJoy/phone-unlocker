@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>unlocker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="lock">
+  <canvas id="canvas" width="300" height="300"></canvas>
+  <div id="tip"></div>
+  <div id="choose">
+    <div>
+      <input type="radio" id="settingPwd" name="set" checked="checked">
+      <label for="settingPwd">设置密码</label>
+    </div>
+    <div>
+      <input type="radio" id="checkPwd" name="set">
+      <label for="checkPwd">检查密码</label>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./js/phoneLock.js"></script>
+<script src="./js/main.js"></script>
+</html>
